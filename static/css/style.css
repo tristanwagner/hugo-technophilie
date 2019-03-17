@@ -1,0 +1,11 @@
+body        {background-color: #111014; color: #d3d3d3; font-family: 'Saira Extra Condensed', sans-serif; font-size: 24px;}
+
+a           {text-decoration: none; color: #d3d3d3;}
+a:hover     {text-decoration: underline;}
+#container  {width: 900px; margin-left: auto; margin-right: auto;}
+
+#header     {height: 70px; border-bottom: solid 1px #d3d3d3;}
+#logo       {margin: auto; float: left; padding: 15px 15px 20px 15px;}
+#nav        {margin: auto; float: right; padding: 15px 15px 20px 15px;}
+
+#content    {padding: 20px;}
