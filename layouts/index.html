@@ -1,4 +1,8 @@
 {{ define "main" }}
-    <h3>~Work in progress~</h3>
-    <p>Hello! Join our community: t.me/kernals</p>
+    {{ .Content }}   
+    <ul class="all-posts">
+        {{- range .Pages }}
+        <li><a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a></li>
+        {{- end }}
+    </ul>
 {{ end }}

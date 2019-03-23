@@ -9,3 +9,5 @@ a:hover     {text-decoration: underline;}
 #nav        {margin: auto; float: right; padding: 15px 15px 20px 15px;}
 
 #content    {padding: 20px;}
+
+ul          {list-style: none; padding: 0;}
