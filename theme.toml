@@ -2,7 +2,7 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "winter"
-license = "WTFPL"
+license = "MIT"
 licenselink = "https://github.com/winterlinn/hugo-winter/blob/master/LICENSE"
 description = "A super minimalistic Hugo theme."
 homepage = "https://github.com/winterlinn/hugo-winter"
