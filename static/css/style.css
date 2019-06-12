@@ -22,7 +22,3 @@ pre, code   {font-size: 15px; border: 1px solid #3c3c3c; border-radius: 3px;}
 code        {padding: 1px 5px;}
 pre         {padding: 8px 12px; overflow-x: auto;}
 pre > code  {border: 0; padding-right: 0; padding-left: 0;}
-
-#landing    {display: inline-block;}
-.motd       {width: 500px; float: left;}
-.ascii-art  {width: 300px; font-family: monospace; white-space: pre; font-size: 15px; float: right;}
