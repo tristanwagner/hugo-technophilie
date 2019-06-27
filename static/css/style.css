@@ -1,24 +1,24 @@
 body        {background-color: #212121; color: #d3d3d3; font-family: 'Titillium Web', sans-serif; font-size: 20px; }
 
-a           {text-decoration: none; color: white; margin:0; padding: 0;}
+a           {text-decoration: none; color: #fff; margin:0; padding: 0;}
 a:hover     {text-decoration: underline;}
-#container  {max-width: 900px; padding: 0;margin: 0; margin-right: auto; margin-left:auto;}
+.container  {max-width: 900px; margin: auto;}
 
-#header     {height: 70px; border-bottom: dashed 1px #a99f96;}
-h3, h2, h1  {color: white;}
-#logo       {margin: auto; float: left; padding: 15px 20px 20px 20px;}
-#nav        {margin: auto; float: right; padding: 15px 20px 20px 20px;}
-#nav a + a:before  {content: "/ "; color: #a99f96; padding: 0 5px; text-decoration: none;}
+.header     {height: 70px; border-bottom: dashed 1px #a99f96;}
+h3, h2, h1  {color: #fff;}
+.logo       {float: left; padding: 15px 20px 20px 20px;}
+.nav        {float: right; padding: 15px 20px 20px 20px;}
+.nav a + a:before  {content: "/ "; color: #a99f96; padding: 0 5px; text-decoration: none;}
 
-#content    {max-width:100%; margin: auto; padding: 20px;}
-p           {margin: 0; padding: 0;}
+.content    {padding: 20px;}
+p           {padding: 0px 15px 10px;}
 ul          {list-style: none; padding: 0;}
 /* code        {font-family:'Roboto Mono', monospace; font-size: 18px; background-color: #37123c;} */
 
-img {max-width: 100%; height: auto; width: auto; padding: 20px 0px;}
+img {max-width: 100%; padding: 20px 0px;}
 
 /* code formatting*/
 pre, code   {font-size: 15px; border: 1px solid #3c3c3c; border-radius: 3px;}
-code        {padding: 1px 5px;}
-pre         {padding: 8px 12px; overflow-x: auto;}
-pre > code  {border: 0; padding-right: 0; padding-left: 0;}
+code        {padding: 5px;}
+pre         {padding: 10px; overflow-x: auto;}
+pre > code  {border: 0; padding:0;}
