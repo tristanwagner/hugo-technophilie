@@ -11,7 +11,7 @@ h3, h2, h1  {color: #fff;}
 .nav a + a:before  {content: "/ "; color: #a99f96; padding: 0 5px; text-decoration: none;}
 
 .content    {padding: 20px;}
-p           {padding: 0px 15px 10px;}
+p           {padding: 0 15px 10px;}
 ul          {list-style: none; padding: 0;}
 /* code        {font-family:'Roboto Mono', monospace; font-size: 18px; background-color: #37123c;} */
 
