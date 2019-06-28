@@ -4,7 +4,7 @@ a           {text-decoration: none; color: #fff;}
 a:hover     {text-decoration: underline;}
 .container  {max-width: 900px; min-width: 400px; margin: auto;}
 
-.header     {padding: 15px 15px 50px; border-bottom: dashed 1px #a99f96;}
+.header     {padding: 15px 20px 55px; border-bottom: dashed 1px #a99f96;}
 h3, h2, h1  {color: #fff;}
 .logo       {float: left;}
 .nav        {float: right;}
