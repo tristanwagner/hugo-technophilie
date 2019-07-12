@@ -11,11 +11,9 @@ h3, h2, h1  {color: #fff;}
 .nav a + a:before  {content: "/ "; color: #a99f96; padding: 0 5px; text-decoration: none;}
 
 .content    {padding: 20px;}
-p           {padding: 0 15px 10px;}
 ul          {list-style: none; padding: 0;}
-/* code        {font-family:'Roboto Mono', monospace; font-size: 18px; background-color: #37123c;} */
 
-img {max-width: 100%; padding: 20px 0px;}
+img         {width: 100%; object-fit: contain; padding: 25px 0 0;}
 
 /* code formatting*/
 pre, code   {font-size: 15px; border: 1px solid #3c3c3c; border-radius: 3px;}
