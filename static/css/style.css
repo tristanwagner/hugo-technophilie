@@ -1,19 +1,22 @@
-body        {background-color: #212121; color: #d3d3d3; font-family: 'Titillium Web', sans-serif; font-size: 20px; }
-
-a           {text-decoration: none; color: #fff;}
+body        {background-color: #212121; color: #d3d3d3; font-family: 'Share Tech Mono', monospace; font-size: 20px;}
+a           {text-decoration: none; color: #fff; letter-spacing: -1px;}
 a:hover     {text-decoration: underline;}
 .container  {max-width: 900px; min-width: 400px; margin: auto;}
 
-.header     {padding: 15px 20px 55px; border-bottom: dashed 1px #a99f96;}
-h3, h2, h1  {color: #fff;}
+.header     {padding: 20px 20px 55px; border-bottom: dashed 1px #a99f96;}
 .logo       {float: left;}
 .nav        {float: right;}
 .nav a + a:before  {content: "/ "; color: #a99f96; padding: 0 5px; text-decoration: none;}
 
 .content    {padding: 20px;}
-ul          {list-style: none; padding: 0;}
+ul          {list-style: none; padding: 0; font-size:22px;}
+h3, h2, h1  {color: #fff; font-weight: normal;}
+h1          {letter-spacing: -2px;}
+h2          {letter-spacing: -1px;}
+h3          {letter-spacing: 0px;}                         
+p           {letter-spacing: -1px;}
 
-img         {width: 100%; object-fit: contain; padding: 25px 0 0;}
+img         {width: 100%; padding: 25px 0 0;}
 
 /* code formatting*/
 pre, code   {font-size: 15px; border: 1px solid #3c3c3c; border-radius: 3px;}
