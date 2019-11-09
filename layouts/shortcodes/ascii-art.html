@@ -3,7 +3,8 @@
 .motd       {width: 50%; float: left;}
 .motd p     {font-family: 'Press Start 2P', cursive; font-size: 24px; margin:100px 0px;}
 .ascii-art  {width: 50%; white-space: pre; float: right;}
-.ascii-art p {font-family: monospace; font-size: 100%;} 
+.ascii-art p {font-family: monospace; letter-spacing:0.3px; font-size: 
+{{ if .IsNamedParams }} {{ .Get "size" }} {{ else }} {{ .Get 2 }} {{ end }} ;} 
 </style>
 
 {{ if .IsNamedParams }}
