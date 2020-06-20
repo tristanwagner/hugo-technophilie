@@ -1,9 +1,10 @@
 <head>
+    <meta charset="UTF-8">
     <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ .Hugo.Generator }}
+    <link rel="stylesheet" type="text/css" href="{{ "css/themes.css" | relURL }}">
+    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
     <meta name="description" content="{{ .Title }}">
     <meta name="author" content="{{ .Site.Author.name }}">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=900">
-    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Press+Start+2P&display=swap" rel="stylesheet"> 
 </head>

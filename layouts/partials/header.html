@@ -1,10 +1,9 @@
 <div class="header">
-    <div class="logo">
-        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    </div>
     <div class="nav">
-        {{ range .Site.Menus.main }}
+        <a class="home" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        {{- range .Site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
+        {{- end }}
+        <a onclick="switchTheme()">theme</a>
     </div>
 </div>
