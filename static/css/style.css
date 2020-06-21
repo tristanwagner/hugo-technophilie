@@ -136,13 +136,14 @@ figure img {
 
 figure {
     background: var(--color-code-bg);
-    margin: 0;
+    margin: 1rem 0;
+    border: 2px solid var(--color-scrollbar);
+    border-radius: 4px;
 }
 
 figcaption h4 {
+    margin: .5rem;
     text-align: center;
-    margin-top: 0;
-    padding-bottom: 5px;
 }
 /* Media - end */
 
