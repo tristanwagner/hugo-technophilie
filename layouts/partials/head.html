@@ -2,9 +2,8 @@
     <meta charset="UTF-8">
     <title>{{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ hugo.Generator }}
     <link rel="stylesheet" type="text/css" href="{{ "css/themes.css" | relURL }}">
     <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
-    <meta name="description" content="{{ .Title }}">
-    <meta name="author" content="{{ .Site.Author.name }}">
+    {{ hugo.Generator }}
+    <meta name="description" content="{{ .Description }}">
 </head>
