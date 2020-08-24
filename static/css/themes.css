@@ -113,10 +113,10 @@
 /* LiteralNumberIntegerLong */ .chroma .il { color: #00afaf }
 /* LiteralNumberOct */ .chroma .mo { color: #00afaf }
 /* OperatorWord */ .chroma .ow { color: #5f8700 }
-/* Comment */ .chroma .c { color: #4e4e4e }
-/* CommentHashbang */ .chroma .ch { color: #4e4e4e }
-/* CommentMultiline */ .chroma .cm { color: #4e4e4e }
-/* CommentSingle */ .chroma .c1 { color: #4e4e4e }
+/* Comment */ .chroma .c { color: #b8bb26 }
+/* CommentHashbang */ .chroma .ch { color: #b8bb26 }
+/* CommentMultiline */ .chroma .cm { color: #b8bb26 }
+/* CommentSingle */ .chroma .c1 { color: #b8bb26 }
 /* CommentSpecial */ .chroma .cs { color: #5f8700 }
 /* CommentPreproc */ .chroma .cp { color: #5f8700 }
 /* CommentPreprocFile */ .chroma .cpf { color: #5f8700 }
