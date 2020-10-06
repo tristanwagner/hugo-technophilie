@@ -58,7 +58,13 @@ ul.list {
 }
 
 .list li {
-    padding: .2em 0;
+    padding: .5em 0;
+    border-top: 2px dashed var(--color-scrollbar);
+}
+
+.list li span {
+    float: right;
+    padding-left: .5em;
 }
 /* List - end */
 
