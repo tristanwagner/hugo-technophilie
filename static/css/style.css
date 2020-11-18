@@ -114,6 +114,7 @@ pre {
 
 /* table */
 table {
+    margin: 1em 0;
     display: block;
     overflow: auto;
     border-collapse: collapse;
