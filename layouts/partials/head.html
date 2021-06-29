@@ -6,5 +6,4 @@
     <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
     <meta name="description" content="{{ .Description }}">
     {{ hugo.Generator }}
-    {{ if .Site.Params.onionURL }}<meta http-equiv="onion-location" content="{{ $.Site.Params.onionURL }}{{ $.Page.RelPermalink }}">{{ end }}
 </head>
