@@ -1,0 +1,143 @@
+@font-size: 20px;
+@min-width: 300px;
+@max-width: 800px;
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: @font-size;
+  scrollbar-color: var(--color-scrollbar) var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+.container {
+  margin: auto;
+  padding: 0.5em 1em;
+  min-width: @min-width;
+  max-width: @max-width;
+}
+
+.header {
+  font-size: 1.6em;
+  border-bottom: dashed 2px currentColor;
+  user-select: none;
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+  li {
+    padding-left: 0.8em;
+    float: right;
+  }
+  li:hover {
+    text-decoration: underline;
+  }
+  li.home {
+    padding-left: 0;
+    float: left;
+  }
+  a {
+    color: inherit;
+  }
+}
+
+ul.list {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 0.5em 0;
+    border-top: 2px dashed var(--color-scrollbar);
+    span {
+      float: right;
+      padding-left: 0.5em;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-link-hover);
+}
+
+blockquote {
+  color: var(--color-blockquote);
+  border-left: 5px solid currentColor;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+code {
+  font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+  font-size: .85em;
+  padding: 0.1em 0.2em;
+  border-radius: 4px;
+  background: var(--color-code-bg);
+}
+
+pre code {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+}
+
+pre {
+  padding: 0.5em;
+  overflow: auto;
+  background: var(--color-code-bg);
+  border: 2px solid var(--color-scrollbar);
+  border-radius: 4px
+}
+
+table {
+  margin: 1em 0;
+  display: block;
+  overflow: auto;
+  border-collapse: collapse;
+  td, th {
+    border: 2px solid currentColor;
+    padding: 0.5em;
+  }
+  th {
+    background: var(--color-table-th);
+  }
+  tr:nth-child(even) {
+    background: var(--color-table-tr-even);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  background: var(--color-code-bg);
+  margin: 1em 0;
+  border: 2px solid var(--color-scrollbar);
+  border-radius: 4px;
+  img {
+    width: 100%;
+  }
+}
+
+figcaption h4 {
+  margin: 0.4em;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar);
+}

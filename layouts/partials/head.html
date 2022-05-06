@@ -1,9 +1,13 @@
 <head>
-    <meta charset="UTF-8">
-    <title>{{ .Title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{{ "css/themes.css" | relURL }}">
-    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
-    <meta name="description" content="{{ .Description }}">
-    {{ hugo.Generator }}
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <meta name="description" content="{{ .Description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ hugo.Generator }}
+  {{ $js := resources.Get "js/theme-switcher.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}"></script>
+  {{ $themes := resources.Get "css/themes.css" }}
+  {{ $style := resources.Get "css/style.css" }}
+  {{ $css := slice $themes $style | resources.Concat "css/bundle.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
