@@ -1,4 +1,4 @@
-@font-size: 20px;
+@font-size: 16px;
 @min-width: 300px;
 @max-width: 800px;
 
@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  font-size: 1.6em;
+  font-size: 1.4em;
   border-bottom: dashed 2px currentColor;
   user-select: none;
   ul {
@@ -31,14 +31,11 @@ body {
     padding: 0.5em 0;
   }
   li {
-    padding-left: 0.8em;
+    margin-left: 0.8em;
     float: right;
   }
-  li:hover {
-    text-decoration: underline;
-  }
   li.home {
-    padding-left: 0;
+    margin-left: 0;
     float: left;
   }
   a {
@@ -64,7 +61,7 @@ a {
   color: var(--color-link);
 }
 
-a:hover {
+a:hover, .header li:hover {
   text-decoration: underline;
   color: var(--color-link-hover);
 }
@@ -79,7 +76,7 @@ blockquote {
 code {
   font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
   font-size: .85em;
-  padding: 0.1em 0.2em;
+  padding: 0.2em 0.3em;
   border-radius: 4px;
   background: var(--color-code-bg);
 }
@@ -91,7 +88,7 @@ pre code {
 }
 
 pre {
-  padding: 0.5em;
+  padding: 1em;
   overflow: auto;
   background: var(--color-code-bg);
   border: 2px solid var(--color-scrollbar);
@@ -130,7 +127,7 @@ figure {
 }
 
 figcaption h4 {
-  margin: 0.4em;
+  margin: 0.2em;
   text-align: center;
 }
 
