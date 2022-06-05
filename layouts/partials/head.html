@@ -10,4 +10,7 @@
   {{ $style := resources.Get "css/style.css" }}
   {{ $css := slice $themes $style | resources.Concat "css/bundle.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ if site.GoogleAnalytics }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ end }}
 </head>
