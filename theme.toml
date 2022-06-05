@@ -1,15 +1,14 @@
-name = "kernal"
+name = "technophilie"
 license = "GPL-3.0"
-licenselink = "https://gitlab.com/kernal/hugo-kernal/raw/master/COPYING"
-description = "A super minimalistic Hugo theme."
-homepage = "https://gitlab.com/kernal/hugo-kernal"
+licenselink = "https://github.com/tristanwagner/hugo-technophilie/raw/master/COPYING"
+description = "A super minimalistic Hugo theme forked from hugo-kernal."
+homepage = "https://github.com/tristanwagner/hugo-technophilie"
 tags = ["minimal", "light", "dark", "blog"]
 features = []
 min_version = "0.41"
 
 authors = [
-    {name = "Siren", homepage = "siren.kernal.eu"},
-    {name = "Stnby", homepage = "kernal.eu"}
+    {name = "Tristan WAGNER", homepage = "technophilie.io"}
 ]
 
 [original]
