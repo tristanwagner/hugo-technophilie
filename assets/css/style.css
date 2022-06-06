@@ -15,7 +15,7 @@ body {
 }
 .header {
   font-size: 1.4em;
-  border-bottom: dashed 2px currentColor;
+  border-bottom: dashed 2px var(--color-separator);
   user-select: none;
 }
 .header ul {
@@ -32,22 +32,22 @@ body {
   margin-left: 0;
   float: left;
 }
-.header a {
-  color: inherit;
-}
+/* .header a { */
+/*   color: inherit; */
+/* } */
 ul.list {
   list-style: none;
   padding: 0;
 }
 ul.list li {
   padding: 0.5em 0;
-  border-top: 2px dashed var(--color-scrollbar);
+  border-top: 2px dashed var(--color-separator);
 }
 ul.list li span {
   float: right;
   padding-left: 0.5em;
 }
-a {
+a, .header li{
   text-decoration: none;
   color: var(--color-link);
 }

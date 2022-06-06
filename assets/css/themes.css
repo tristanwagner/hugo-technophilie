@@ -46,15 +46,17 @@
 .dark {
   --color-bg: var(--color-dark0);
   --color-fg: var(--color-light0);
-  --color-link: var(--color-bright_green);
+  --color-link: var(--color-bright_aqua);
   --color-link-hover: var(--color-neutral_aqua);
   --color-code-bg: var(--color-dark0_hard);
   --color-code: var(--color-bright_blue);
   --color-blockquote: var(--color-bright_blue);
-  --color-table-th: var(--color-faded_aqua);
+  --color-table-th: var(--color-dark2);
   --color-table-tr-even: var(--color-dark0_soft);
+  --color-separator: var(--color-bright_purple);
   --color-scrollbar: var(--color-dark4);
-  --color-section: var(--color-bright_aqua);
+  --color-section-title: var(--color-bright_yellow);
+  --color-section: var(--color-bright_green);
   --color-bold-text: var(--color-bright_purple);
 }
 
@@ -69,12 +71,15 @@
   --color-table-th: var(--color-bright_yellow);
   --color-table-tr-even: var(--color-light0);
   --color-scrollbar: var(--color-dark4);
+  --color-separator: var(--color-dark4);
   --color-section: none;
+  --color-section-title: none;
   --color-bold-text: none;
 }
 
 /* Sections */
-h1, h2, h3 { color: var(--color-section) !important;}
+h1 { color: var(--color-section-title) !important;}
+h2, h3 { color: var(--color-section) !important;}
 strong { color: var(--color-bold-text) !important;}
 code { color: var(--color-code) !important;}
 
