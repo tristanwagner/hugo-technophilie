@@ -46,13 +46,16 @@
 .dark {
   --color-bg: var(--color-dark0);
   --color-fg: var(--color-light0);
-  --color-link: var(--color-bright_orange);
-  --color-link-hover: var(--color-bright_yellow);
-  --color-code-bg: var(--color-dark1);
-  --color-blockquote: var(--color-neutral_blue);
-  --color-table-th: var(--color-faded_yellow);
+  --color-link: var(--color-bright_green);
+  --color-link-hover: var(--color-neutral_aqua);
+  --color-code-bg: var(--color-dark0_hard);
+  --color-code: var(--color-bright_blue);
+  --color-blockquote: var(--color-bright_blue);
+  --color-table-th: var(--color-faded_aqua);
   --color-table-tr-even: var(--color-dark0_soft);
   --color-scrollbar: var(--color-dark4);
+  --color-section: var(--color-bright_aqua);
+  --color-bold-text: var(--color-bright_purple);
 }
 
 .light {
@@ -61,11 +64,19 @@
   --color-link: var(--color-neutral_orange);
   --color-link-hover: var(--color-faded_orange);
   --color-code-bg: var(--color-light1);
+  --color-code: none;
   --color-blockquote: var(--color-faded_blue);
   --color-table-th: var(--color-bright_yellow);
   --color-table-tr-even: var(--color-light0);
   --color-scrollbar: var(--color-dark4);
+  --color-section: none;
+  --color-bold-text: none;
 }
+
+/* Sections */
+h1, h2, h3 { color: var(--color-section) !important;}
+strong { color: var(--color-bold-text) !important;}
+code { color: var(--color-code) !important;}
 
 /* Background */ .chroma { color: var(--color-light0); background: var(--color-dark0_hard) }
 /* Other */ .chroma .x { color: #d75f00 }
